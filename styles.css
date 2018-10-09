@@ -1,16 +1,14 @@
-H3 em {
+h3 em {
   font-family: "Work Sans", sans-serif;
   letter-spacing: 0.02em;
   font-weight: 900;
   font-style: normal;
 }
 
-
-H1 em {
+h1 em {
   color: yellow;
   font-style: normal;
 }
-
 
 .source--root {
   position: absolute;
