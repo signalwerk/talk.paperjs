@@ -1,0 +1,145 @@
+import { Head, Image } from 'mdx-deck'
+import Start from './src/Components/start'
+import Source from './src/Components/source'
+import Video from './src/Components/video'
+export theme from './src/theme'
+import Invert from './src/layouts/Invert'
+import ImgLayout from './src/layouts/image'
+
+import 'style-loader!css-loader!./styles.css'
+
+
+<Head>
+  <title>Web‑Worknights</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet" />
+</Head>
+
+
+# start
+---
+export default Start
+
+
+<Video
+  loop={true}
+  src="https://cdn.rawgit.com/signalwerk/talk.dock18.2018/add5d516/intro/intro.mp4"
+/>
+
+---
+
+![](//cdn.rawgit.com/signalwerk/talk.travis-ci/1991b0ef/img/header.png)
+
+---
+### Meetup
+#  Web‑Worknights
+---
+## Warum Web‑Worknights?
+* Möglichkeit zum Austausch für Unerfahrene bis Profis
+* IAD Lehrgang
+---
+
+## Stefan Huber
+* Web-Bastler seit ~ 19 Jahr
+* Web-Entwickler seit ~ 13 Jahr
+
+---
+## THX
+Schule für Gestaltung Zürich
+---
+## DANGER!
+There will be live-coding...
+---
+## Techniken
+* JavaScript
+* Grundlagen Grafik-Aufbau
+
+---
+## Paper.js
+
+---
+## Autoren
+* [Jürg Lehni](http://juerglehni.com/)
+* Jonathan Puckey
+---
+## Geschichte
+* [Scriptographer](https://scriptographer.org/)
+---
+## Andere Libs
+
+* [d3](https://d3js.org/)
+* [snap](http://snapsvg.io/)
+* ...
+---
+## Warum Paper.js?
+
+* SVG-Export
+* Boolean Operations
+* Einfacher Einstieg
+
+---
+## Features
+
+* [Website](http://paperjs.org/features/)
+* [Boolean Operations](https://scriptographer.org/tutorials/paths/geometric-operations/)
+
+---
+## Beispiele
+
+* [Beispiel](http://paperjs.org/examples/rounded-rectangles/)
+
+
+---
+## Hello World
+
+* [Beispiel](http://sketch.paperjs.org/#S/VY/BDoIwEER/ZdMLmhAhxF5KPPEDRo+FQ2lXaaitKUUPhH+3ECXxOLP7ZjITseKBhJFrj0F2JCXSqUXXNsvgJTwoF+AEFt9wFqE7VNpLg7tpvddBog3oGXCap0DzJv36Xig9DgyO9OfctDGVMy4+Jx5VstrzvqztVuVR/nVdohb2Hut4TI/hwAuaQkGbBYvQAhy24IgmrRkxKeOM1qPon07bMBDGm/kD)
+
+
+---
+## Pfade
+
+
+* [Beispiel](http://sketch.paperjs.org/#S/nZK9bsIwFEZf5coLCZhiqCohUqZOnVqJERjc5EKiGBvZTjsg3r12HPLTIlVqhsROzvedKysXIvkJyYpsSrRpTihJVeb3O7mTn1xDzmUm8FXCGiR+wbsqpI2mS0ZhOmcsTvrUW2UHmKcaqA906zEskpvoUGhj69ygw+VdyVNrqrENHk/Ygs0u6hooyEoI2pniWhMaDKZKZr9Njz9Mgbuv6nXQ9oiCta86c5vfHG4Z9YenQ0GIzWZwUBqiwqVYAgU8w9I9JpMYLvVXf/2juUn61IPVXBrBLUYLNi4o+Hs8RIzVqsQXJdwsaxgdNaIchZqrHzNAKDC1mDnC6gqT9nVtNVu2/xOZ30PcP/ihkZdnf7qGrLb76zc=)
+
+
+---
+## Spezielles
+
+### PaperScript
+
+```js
+var point1 = new Point(100, 100);
+var point2 = point1 * 4;
+var point3 = point1 + point2;
+
+```
+
+### JavaScript
+```js
+
+var point1 = new paper.Point(100, 100);
+var point2 = point1.multiply(4);
+var point3 = point1.add(point2);
+
+```
+---
+## Spezielle Events
+
+* `onMouseMove`
+* `onFrame`
+* `onKeyDown`
+* ...
+
+---
+![](//cdn.rawgit.com/signalwerk/talk.travis-ci/1991b0ef/img/header.png)
+### [Next Meetup – 26.10.2018](https://logrinto.ch/events/web-worknights-hs-2018/)
+
+
+---
+# Merci
+
+
+
+
+---
+
+## exit 0;
